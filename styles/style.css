@@ -8,7 +8,7 @@ div {
   margin: auto;
   height: 92px;
   width: 272px;
-  top: 190px;
+  top: 180px;
 }
 
 .searchlucky {
@@ -19,14 +19,111 @@ div {
 #bar {
   right: 150px;
   position: relative;
+  border-radius: 3.5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(180, 180, 180, .25);
+  box-shadow: 2px 2px 2px rgb(230, 230, 230);
+  line-height: 37px;
 }
 
-.TEST {
-  margin: auto;
+#bar:hover {
+  box-shadow: 2px 2px 5px rgb(190, 190, 190);
+}
+
+.twobuttons {
+  top: 37px;
+}
+
+.searchfont {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: rgba(0,0,0, .5);
+  font-size: 13px;
+}
+
+#google {
+  background-color: rgba(150, 150, 150, .15);
+  line-height: 30px;
+  width: 130px;
+  border-radius: 0;
+  border: none
+}
+
+#lucky {
+  background-color: rgba(150, 150, 150, .15);
+  line-height: 30px;
+  width: 130px;
+  border-radius: 0;
+  border: none
+}
+
+.topnav {
+  list-style-type: none;
+  display: inline;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: rgba(0,0,0, .7);
+}
+
+#images {
+  float: right;
+  right: 163px;
+  position: relative;
+  top: 2px
+}
+
+#gmail {
+  float: right;
+  position: relative;
+  right: 180px;
+  top: 2px
+}
+
+#apps {
+  height: 5px;
+  width: 5px;
+  float: right;
+  right: 65px;
+  bottom: 3px;
+  position: relative;
+  filter: opacity(50%)
+}
+
+#profile {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: right;
+  border-radius: 100%;
+  left: 70px;
+  position: relative;
+  bottom: 5px;
+}
+
+#bell {
+  float: right;
+  position: relative;
+  bottom: 0px;
+  right: 2px;
+  filter: opacity(50%)
+  }
+
+#gmail:hover, #images:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#apps:hover, #bell:hover {
+  filter: opacity(100%)
+}
+
+.botnav {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  color: rgba(0,0,0, 1);
   text-align: center;
 }
 
-input[type="text"] {
-  height: 25px;
-  transition-property: box-shadow;
-}
