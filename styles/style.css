@@ -1,0 +1,17 @@
+div {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#MAINLOGO {
+  margin: auto;
+  height: 92px;
+  width: 272px;
+  top: 190px;
+}
+
+.TEST {
+  margin: auto;
+  text-align: center;
+}
