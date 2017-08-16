@@ -4,14 +4,29 @@ div {
   position: relative;
 }
 
-#MAINLOGO {
+.MAINLOGO {
   margin: auto;
   height: 92px;
   width: 272px;
   top: 190px;
 }
 
+.searchlucky {
+  width: 500px;
+  top: 30px;
+}
+
+#bar {
+  right: 150px;
+  position: relative;
+}
+
 .TEST {
   margin: auto;
   text-align: center;
+}
+
+input[type="text"] {
+  height: 25px;
+  transition-property: box-shadow;
 }
