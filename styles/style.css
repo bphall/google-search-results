@@ -25,6 +25,7 @@ div {
   border-color: rgba(180, 180, 180, .25);
   box-shadow: 2px 2px 2px rgb(230, 230, 230);
   line-height: 37px;
+  width: 540px;
 }
 
 #bar:hover {
