@@ -58,6 +58,11 @@ div {
   border: none
 }
 
+#google:hover, #lucky:hover {
+  color: black;
+  border: 1px solid rgba(0,0,0, .2)
+}
+
 .topnav {
   list-style-type: none;
   display: inline;
@@ -125,5 +130,49 @@ div {
   font-family: arial, sans-serif;
   color: rgba(0,0,0, 1);
   text-align: center;
+  display: inline-block;
+  color: rgba(0,0,0, .6);
+  position: relative;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0, .05);
+  line-height: 36px;
+  font-size: 13px;
+  border-top-color: rgba(0,0,0,.07);
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+}
+
+.leftbot {
+  float: left;
+}
+
+.rightbot {
+  float: right;
+  right: 50px;
+}
+
+#business {
+  left: 23px;
+}
+
+#about {
+  left: 50px;
+}
+
+#terms {
+  right: 20px;
+}
+#privacy {
+  right: 39px;
+}
+
+.botnav:hover {
+  text-decoration: underline;
+}
